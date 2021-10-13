@@ -9,8 +9,8 @@ R = R'; C = C';
 
 % nearest-neighbor preconditioning
 tic
-% route_precon = precondition_route(R,C);
-route_precon = [R,C];
+route_precon = precondition_route(R,C);
+% route_precon = [R,C]; % uncomment to skip preconditioning
 toc
 
 % 2opt algorithm
