@@ -4,7 +4,7 @@ set(0, 'DefaultFigureColor', 'w');
 set(0,'defaultAxesFontName', 'serif')
 
 % generate grid
-[R, C] = GenerateFermatSpiral(400);
+[R, C] = GenerateFermatSpiral(200);
 R = R'; C = C';
 
 % nearest-neighbor preconditioning
