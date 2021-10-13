@@ -5,4 +5,4 @@ see:
 https://en.wikipedia.org/wiki/2-opt
 
 example:
-![plot](./TSP.PNG)
+![Alt text](images/TSP:PNG?raw=true "Title")
