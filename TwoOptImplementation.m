@@ -4,13 +4,13 @@ set(0, 'DefaultFigureColor', 'w');
 set(0,'defaultAxesFontName', 'serif')
 
 % generate grid
-[R, C] = GenerateFermatSpiral(200);
+[R, C] = GenerateFermatSpiral(100);
 R = R'; C = C';
 
 % nearest-neighbor preconditioning
 tic
-route_precon = precondition_route(R,C);
-% route_precon = [R,C]; % uncomment to skip preconditioning
+% route_precon = precondition_route(R,C);
+route_precon = [R,C]; % uncomment to skip preconditioning
 toc
 
 % 2opt algorithm
